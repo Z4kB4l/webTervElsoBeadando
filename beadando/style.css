@@ -2,6 +2,7 @@
     --elementPrBg: #365486;
     --elemnetSeBg: #7FC7D9;
     --bodyBg: #0F1035;
+    --textColor: #DCF2F1;
     --borderRadius: .5rem;
 }
 
@@ -12,7 +13,7 @@ body{
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-size: 1.2rem;
-    color: #DCF2F1;
+    color: var(--textColor);
 }
 
 .asd{
@@ -52,7 +53,7 @@ nav{
 .menuButton{
     border: none;
     background-color: var(--bodyBg);
-    color: #DCF2F1;
+    color: var(--textColor);
     border-radius: .5rem;
     display: inline-flex;
     margin: 1rem;
